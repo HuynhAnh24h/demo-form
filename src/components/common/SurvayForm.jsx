@@ -84,7 +84,7 @@ const SurveyForm = () => {
     }
 
     return (
-        <div className="max-w-md md:min-w-xl shadow-xl flex flex-col justify-center items-center ">
+        <div className="max-w-md md:min-w-xl shadow-xl flex flex-col justify-center items-center mx-3">
             <div className="w-[150px] h-[150px]">
                 <img src={logo} alt="" className="h-full w-full" />
             </div>

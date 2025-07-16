@@ -3,7 +3,7 @@ import { Button } from '../ui/button'
 
 const Header = ({go,setGo}) => {
   return (
-    <div className='max-w-md mf:max-w-xl min-h-[500px] flex flex-col items-center justify-center shadow-sm gap-3'>
+    <div className='max-w-md mf:max-w-xl min-h-[500px] flex flex-col items-center justify-center shadow-sm gap-3 mx-3'>
         <h1 className='text-2xl font-bold text-orange-400 text-center'>GIÚP CHANCHAN HIỂU BẠN HƠN NHÉ!</h1>
         <p className='text-center text-md'>Cảm ơn bạn đã dành thời gian chia sẻ cùng ChanChan! 
             Mỗi phản hồi của bạn giúp ChanChan mang đến những món ăn chất lượng hơn, 
