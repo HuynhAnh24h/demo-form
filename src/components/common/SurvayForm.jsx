@@ -7,6 +7,7 @@ import { useState, useEffect } from "react"
 import { useForm } from "react-hook-form"
 import { z } from "zod"
 import { zodResolver } from "@hookform/resolvers/zod"
+import { toast } from "react-toastify"
 
 // ✅ Tạo schema xác thực từ danh sách câu hỏi
 const schema = z.object(
@@ -51,6 +52,7 @@ const SurveyForm = () => {
         trigger,
         watch,
         formState: { errors },
+        reset
     } = useForm({
         resolver: zodResolver(schema),
         defaultValues,
@@ -65,10 +67,23 @@ const SurveyForm = () => {
 
     // Gửi khảo sát
     const onSubmit = (data) => {
-        console.log("Dữ liệu khảo sát:", data)
-        localStorage.removeItem("surveyAnswers")
-        // Gửi lên server nếu cần
+        const formatted = Object.entries(data).map(([id, answer]) => ({
+            questionId: id,
+            answer: answer,
+        }))
+
+        console.log("📦 Dữ liệu khảo sát gửi đi:", formatted)
+
+        toast.success("Gửi thành công! F12 kiểm tra dữ liệu nếu cần 😄", {
+            onClose: () => {
+                localStorage.removeItem("surveyAnswers")
+                reset({})
+                setStep(0) // Quay lại bước đầu tiên
+            },
+            autoClose: 3000, // Đợi 3s rồi tự đóng
+        })
     }
+
 
     // Kiểm tra hợp lệ trước khi chuyển bước
     const handleNextStep = async () => {
