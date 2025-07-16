@@ -4,7 +4,7 @@ import "react-toastify/dist/ReactToastify.css"
 import { ToastContainer } from 'react-toastify'
 const App = () => {
   return (
-    <div className='flex justify-center items-center h-screen'>
+    <div className='flex justify-center items-center min-h-screen'>
       <SurvayForm/>
       <ToastContainer/>
     </div>

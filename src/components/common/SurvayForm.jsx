@@ -9,14 +9,11 @@ import { z } from "zod"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { toast } from "react-toastify"
 
-// ✅ Tạo schema xác thực từ danh sách câu hỏi
 const schema = z.object(
     Object.fromEntries(
         survay.flatMap((step) =>
             step.questions.map((q) => {
                 const key = q.id.toString()
-
-                // Kiểm tra riêng số điện thoại
                 if (q.type === "phone") {
                     return [
                         key,
@@ -25,7 +22,6 @@ const schema = z.object(
                         }),
                     ]
                 }
-                // Các trường khác
                 return [
                     key,
                     q.typeOfQuestion === 1
@@ -40,11 +36,8 @@ const schema = z.object(
 const SurveyForm = () => {
     const [step, setStep] = useState(0)
     const currentStep = survay[step]
-
-    // Lấy dữ liệu đã lưu từ localStorage
     const saved = localStorage.getItem("surveyAnswers")
     const defaultValues = saved ? JSON.parse(saved) : {}
-
     const {
         register,
         handleSubmit,
@@ -57,35 +50,29 @@ const SurveyForm = () => {
         resolver: zodResolver(schema),
         defaultValues,
     })
-
     const answers = watch()
-
-    // Tự lưu dữ liệu khi thay đổi
     useEffect(() => {
         localStorage.setItem("surveyAnswers", JSON.stringify(answers))
     }, [answers])
 
-    // Gửi khảo sát
     const onSubmit = (data) => {
         const formatted = Object.entries(data).map(([id, answer]) => ({
             questionId: id,
             answer: answer,
         }))
 
-        console.log("📦 Dữ liệu khảo sát gửi đi:", formatted)
+        console.log("Dữ liệu khảo sát gửi đi:", formatted)
 
         toast.success("Gửi thành công! F12 kiểm tra dữ liệu nếu cần 😄", {
             onClose: () => {
                 localStorage.removeItem("surveyAnswers")
                 reset({})
-                setStep(0) // Quay lại bước đầu tiên
+                setStep(0) 
             },
-            autoClose: 3000, // Đợi 3s rồi tự đóng
+            autoClose: 3000, 
         })
     }
 
-
-    // Kiểm tra hợp lệ trước khi chuyển bước
     const handleNextStep = async () => {
         const fieldsToValidate = currentStep.questions.map((q) => q.id.toString())
         const valid = await trigger(fieldsToValidate)
@@ -98,11 +85,11 @@ const SurveyForm = () => {
     return (
         <div className="max-w-md md:min-w-xl shadow-xl">
             <form className="p-6 space-y-6 max-w-xl mx-auto" onSubmit={handleSubmit(onSubmit)}>
-                <h2 className="text-2xl font-bold">{currentStep.categoryName}</h2>
+                <h2 className="text-2xl font-bold text-orange-400 text-center">{currentStep.categoryName}</h2>
 
                 {currentStep.questions.map((q) => (
                     <div key={q.id} className="space-y-2">
-                        <Label className="block font-medium">{q.title}</Label>
+                        <Label className="block font-medium text-orange-500">{q.title}</Label>
 
                         {q.typeOfQuestion === 1 ? (
                             <RadioGroup
@@ -134,19 +121,19 @@ const SurveyForm = () => {
                 <div className="flex justify-between pt-6">
                     {step > 0 && (
                         <Button
-                            variant="outline"
                             type="button"
                             onClick={() => setStep(step - 1)}
+                            className="bg-orange-500 hover:bg-amber-700 text-white"
                         >
                             Quay lại
                         </Button>
                     )}
                     {step < survay.length - 1 ? (
-                        <Button type="button" onClick={handleNextStep}>
+                        <Button type="button" onClick={handleNextStep} className="bg-orange-500 hover:bg-amber-700">
                             Tiếp theo
                         </Button>
                     ) : (
-                        <Button type="submit">Gửi khảo sát</Button>
+                        <Button type="submit" className="bg-orange-500 hover:bg-amber-700">Gửi khảo sát</Button>
                     )}
                 </div>
             </form>
