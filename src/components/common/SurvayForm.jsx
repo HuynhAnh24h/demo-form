@@ -8,6 +8,7 @@ import { useForm } from "react-hook-form"
 import { z } from "zod"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { toast } from "react-toastify"
+import logo from "@/assets/logo.png"
 
 const schema = z.object(
     Object.fromEntries(
@@ -83,9 +84,13 @@ const SurveyForm = () => {
     }
 
     return (
-        <div className="max-w-md md:min-w-xl shadow-xl">
+        <div className="max-w-md md:min-w-xl shadow-xl flex flex-col justify-center items-center ">
+            <div className="w-[150px] h-[150px]">
+                <img src={logo} alt="" className="h-full w-full" />
+            </div>
             <form className="p-6 space-y-6 max-w-xl mx-auto" onSubmit={handleSubmit(onSubmit)}>
-                <h2 className="text-2xl font-bold text-orange-400 text-center">{currentStep.categoryName}</h2>
+                {/* <h2 className="text-lg font-bold border-2 border-[#FF6600] p-5 rounded-md bg-[#FF6600] text-center text-white">{currentStep.categoryName}</h2> */}
+                <h2 className="text-md font-bold border-2 border-[#FF6600] p-5 rounded-md bg-[#FF6600] text-center text-white">CHO CHANCHAN 1 XÍU THÔNG TIN XÍU VỀ BẠN NHA</h2>
 
                 {currentStep.questions.map((q) => (
                     <div key={q.id} className="space-y-2">
@@ -100,7 +105,7 @@ const SurveyForm = () => {
                             >
                                 {q.answers.map((a) => (
                                     <div key={a.numberOrder} className="flex items-center space-x-2">
-                                        <RadioGroupItem value={a.answer} id={`${q.id}-${a.numberOrder}`} />
+                                        <RadioGroupItem value={a.answer} id={`${q.id}-${a.numberOrder}`}/>
                                         <Label htmlFor={`${q.id}-${a.numberOrder}`}>{a.answer}</Label>
                                     </div>
                                 ))}
@@ -109,6 +114,7 @@ const SurveyForm = () => {
                             <Input
                                 type="text"
                                 {...register(q.id.toString())}
+                                className="w-full border-2 border-gray p-2 rounded focus:bg-[#FF6600] focus:border-[#FF6600] focus:text-white outline-none text-[#60230D] text-sm font-bold"
                             />
                         )}
 

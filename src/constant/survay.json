@@ -1,65 +1,137 @@
 [
   {
     "numberOrder": 1,
-    "categoryName": "Basic Profile",
+    "categoryName": "CHO CHANCHAN 1 XÍU THÔNG TIN XÍU VỀ BẠN NHA~~",
     "questions": [
       {
         "id": 19,
-        "title": "Bồ vui lòng cho Chan Chan biết tên nhé",
-        "typeOfQuestion": 3,
-        "answers": null
-      },
-      {
-        "id": 1,
-        "title": "Bồ bao nhiêu tuổi?",
+        "title": "1. Bạn thuộc nhóm độ tuổi nào?",
         "typeOfQuestion": 1,
         "answers": [
           {
             "numberOrder": 1,
-            "answer": "18 - 24"
+            "answer": "Dưới 25"
           },
           {
             "numberOrder": 2,
-            "answer": "35 - 44"
+            "answer": "25–32"
           },
           {
             "numberOrder": 3,
-            "answer": "25 - 34"
+            "answer": "32–39"
           },
           {
             "numberOrder": 4,
-            "answer": "45 -54"
+            "answer": "39-46"
           },
           {
             "numberOrder": 5,
-            "answer": "54 +"
+            "answer": "46+"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "title": "2. Trạng thái hôn nhân của bạn:",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Độc thân"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Đã có gia đình"
           }
         ]
       },
       {
         "id": 20,
-        "title": "Số điện thoại của Bồ để Chan Chan chăm sóc tốt hơn",
-        "typeOfQuestion": 3,
-        "type": "phone",
-        "answers": null
+        "title": "3. Nghề nghiệp hiện tại của bạn là? ",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Sinh viên"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Nhân viên văn phòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Kinh doanh cá nhân"
+          },
+	  {
+            "numberOrder": 3,
+            "answer": "Nội trợ"
+          }
+        ]
       },
       {
         "id": 2,
-        "title": "Nghề nghiệp của Bồ là gì?",
-        "typeOfQuestion": 3,
-        "answers": null
+        "title": "4. Vị trí công việc của bạn?",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Thực tập sinh"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Nhân viên"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Cấp quản lý/ Trưởng phòng"
+          }
+        ]
       },
       {
         "id": 3,
-        "title": "Bồ sống ở khu vực nào? (Quận, thành phố)",
-        "typeOfQuestion": 3,
-        "answers": null
+        "title": "5. Bạn đang sinh sống tại đâu?",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "TP.HCM"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Hà Nội"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Đà Nẵng"
+          }
+        ]
       },
       {
         "id": 4,
-        "title": "Bồ sẵn sàng chi bao nhiêu tiền cho bữa ăn trưa của Bồ",
-        "typeOfQuestion": 3,
-        "answers": null
+        "title": "7. Bạn biết đến ChanChan Noodle qua kênh nào?",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Facebook / Instagram"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Tiktok"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Người quen giới thiệu"
+          },
+          {
+            "numberOrder": 4,
+            "answer": "Ứng dụng giao hàng (ShopeeFood, GrabFood, Be, etc.)"
+          },
+          {
+            "numberOrder": 5,
+            "answer": "Đi ngang thấy / tình cờ biết"
+          }
+        ]
       }
     ]
   },
