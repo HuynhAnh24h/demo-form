@@ -1,10 +1,10 @@
 [
   {
     "numberOrder": 1,
-    "categoryName": "CHO CHANCHAN 1 XÍU THÔNG TIN XÍU VỀ BẠN NHA~~",
+    "categoryName": "CHO CHANCHAN 1 XÍU THÔNG TIN VỀ BẠN NHA~~",
     "questions": [
       {
-        "id": 19,
+        "id": 1,
         "title": "1. Bạn thuộc nhóm độ tuổi nào?",
         "typeOfQuestion": 1,
         "answers": [
@@ -31,7 +31,7 @@
         ]
       },
       {
-        "id": 1,
+        "id": 2,
         "title": "2. Trạng thái hôn nhân của bạn:",
         "typeOfQuestion": 1,
         "answers": [
@@ -46,7 +46,7 @@
         ]
       },
       {
-        "id": 20,
+        "id": 3,
         "title": "3. Nghề nghiệp hiện tại của bạn là? ",
         "typeOfQuestion": 1,
         "answers": [
@@ -69,7 +69,7 @@
         ]
       },
       {
-        "id": 2,
+        "id": 4,
         "title": "4. Vị trí công việc của bạn?",
         "typeOfQuestion": 1,
         "answers": [
@@ -88,7 +88,7 @@
         ]
       },
       {
-        "id": 3,
+        "id": 5,
         "title": "5. Bạn đang sinh sống tại đâu?",
         "typeOfQuestion": 1,
         "answers": [
@@ -107,7 +107,7 @@
         ]
       },
       {
-        "id": 4,
+        "id": 6,
         "title": "7. Bạn biết đến ChanChan Noodle qua kênh nào?",
         "typeOfQuestion": 1,
         "answers": [
@@ -137,72 +137,400 @@
   },
   {
     "numberOrder": 2,
-    "categoryName": "Behavior",
+    "categoryName": "THÓI QUEN ĂN UỐNG - Để ChanChan hiểu bạn nhiều hơn một chút",
     "questions": [
       {
-        "id": 5,
-        "title": "Bồ đã từng đến Chan Chan bao nhiêu lần?",
-        "typeOfQuestion": 1,
-        "answers": [
-          {
-            "numberOrder": 1,
-            "answer": "Lần đầu"
-          },
-          {
-            "numberOrder": 2,
-            "answer": "2 - 5 lần"
-          },
-          {
-            "numberOrder": 3,
-            "answer": "Thường xuyên (1 lần/tuần hoặc hơn)"
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "title": "Bồ thường đến Chan Chan vào lúc nào?",
-        "typeOfQuestion": 1,
-        "answers": [
-          {
-            "numberOrder": 1,
-            "answer": "Sáng"
-          },
-          {
-            "numberOrder": 2,
-            "answer": "Trưa"
-          },
-          {
-            "numberOrder": 3,
-            "answer": "Chiều"
-          },
-          {
-            "numberOrder": 4,
-            "answer": "Tối"
-          }
-        ]
-      },
-      {
         "id": 7,
-        "title": "Bồ thường đi cùng ai?",
+        "title": "8. Bạn thường ăn món hủ tiếu theo kiểu nào?",
         "typeOfQuestion": 1,
         "answers": [
           {
             "numberOrder": 1,
-            "answer": "Một mình"
+            "answer": "Khô"
           },
           {
             "numberOrder": 2,
-            "answer": "Bạn bè"
+            "answer": "Nước"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "9. Bạn thường đặt món ăn bằng cách nào?",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Ứng dụng giao hàng"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Đặt trực tiếp qua Fanpage"
           },
           {
             "numberOrder": 3,
-            "answer": "Gia đình"
+            "answer": "Gọi điện Hotline"
           },
           {
             "numberOrder": 4,
-            "answer": "Đồng nghiệp"
+            "answer": "Đến mua mang đi"
           }
         ]
+      },
+      {
+        "id": 9,
+        "title": "10. Bạn thích món ăn có những hương vị như thế nào?",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Chua cay"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Creamy (vị béo nhẹ)"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Ngọt thanh"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "title": "11. Bạn ăn ở nhà hàng chay/thuần chay với tần suất như thế nào?",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Hằng ngày"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Vài lần mỗi tuần"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Chỉ theo lịch ăn chay"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "1 lần mỗi tuần"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Thỉnh thoảng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Đây là lần đầu tiên"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "title": "12. Khi ăn trưa, bạn dành bao nhiêu thời gian vậy nè?",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Dưới 30 phút"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Từ 30 phút đến 1 tiếng"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "title": "13. Mức giá hợp lý cho một phần ăn để bạn order ở ngoài là:",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Dưới 40.000đ"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "40.000–60.000đ"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "60.000–80.000đ"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Trên 80.000đ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "numberOrder": 3,
+    "categoryName": "SỞ THÍCH & LỐI SỐNG - Để ChanChan phục vụ bạn tốt hơn nữa",
+    "questions": [
+      {
+        "id": 13,
+        "title": "14. Sở thích sau khi làm việc của bạn là gì:",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Đi tập thể thao"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Đi ăn cùng với bạn bè, gia đình"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Nghỉ ngơi ở nhà"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "title": "15. Khi sử dụng mạng xã hội, bạn quan tâm đến những chủ đề nào:",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Đồ ăn - Nhà hàng - Quán cafe"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Showbiz"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Tin tức chính trị"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Làm đẹp và Sức khoẻ"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "title": "16.  Một ngày bạn dành bao nhiêu thời gian để sử dụng mạng xã hội?",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Dưới 1 tiếng"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "1 tiếng - 2 tiếng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "2 tiếng - 3 tiếng"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "numberOrder": 4,
+    "categoryName": "CẢM NHẬN CỦA BẠN VỀ CHANCHAN",
+    "questions": [
+      {
+        "id": 16,
+        "title": "17. Điều gì khiến bạn chọn ChanChan (hoặc một quán ăn) để ăn/lặp lại order?",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Ngon miệng"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Giá hợp lý"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Giao hàng nhanh"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Đóng gói đẹp"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Thái độ phục vụ tốt"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Menu đa dạng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Hợp “vibe” của mình"
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "title": "18. Khi đến ChanChan, bạn quan tâm yếu tố nào nhất ngoại trừ hương vị món ăn nè?",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Thái độ phục vụ"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Sự trình bày món ăn"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Vệ sinh an toàn thực phẩm"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Có khuyến mãi"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "title": "19. Món nào của ChanChan bạn thích nhất? Vì sao?",
+        "typeOfQuestion": 3,
+        "answers": null
+      },
+      {
+        "id": 19,
+        "title": "20. Bạn thấy như thế nào về bữa ăn của bạn tại ChanChan hôm nay?",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Rất không hài lòng"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Không hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Trung lập"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Rất hài lòng"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "title": "21. Bạn cảm nhận như thế nào về thái độ phục vụ của nhân viên ChanChan?",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Rất không hài lòng"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Không hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Trung lập"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Rất hài lòng"
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "title": "22. Bạn cho ChanChan xin ý kiến về thời gian tiếp nhận order và lên món nữa nha~",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Rất chậm"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Chậm"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Trung bình"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Nhanh"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Rất nhanh"
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "title": "23. Bạn mong ChanChan cải thiện điều gì?",
+        "typeOfQuestion": 3,
+        "answers": null
+      },
+      {
+        "id": 23,
+        "title": "24. Bạn muốn ChanChan bổ sung món gì vào menu?",
+        "typeOfQuestion": 3,
+        "answers": null
+      },
+      {
+        "id": 24,
+        "title": "25. Bạn có sẵn lòng giới thiệu ChanChan cho bạn bè không?",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Rất sẵn lòng"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Có thể"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Không"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "numberOrder": 5,
+    "categoryName": "CHANCHAN CÁM ƠN BẠN RẤT NHIỀU 🧡 ChanChan thỉnh thoảng sẽ gửi tặng quà cho khách hàng may mắn hoặc thân thiết nhất. Nếu bạn muốn nhận quà bất ngờ từ tụi mình, để lại thông tin nha 😍",
+    "questions": [
+      {
+        "id": 26,
+        "title": "Tên:",
+        "typeOfQuestion": 3,
+        "answers": null
+      },
+      {
+        "id": 27,
+        "title": "Số điện thoại/Zalo:",
+        "typeOfQuestion": 3,
+        "answers": null
       }
     ]
   }
