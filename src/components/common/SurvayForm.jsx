@@ -128,7 +128,7 @@ function SurveyForm() {
     }
 
     return (
-        <div className="max-w-md md:min-w-xl shadow-xl flex flex-col justify-center items-center mx-3 bg-white p-6 rounded-lg">
+        <div className="max-w-md md:min-w-xl shadow-xl flex flex-col justify-center items-center mx-3 my-3 bg-white p-6 rounded-lg">
             <img src={logo} alt="Logo ChanChan" className="w-28 h-28 mb-4" />
 
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-6 w-full">

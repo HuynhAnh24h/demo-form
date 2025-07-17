@@ -535,5 +535,764 @@
         "answers": null
       }
     ]
+  },
+  {
+    "numberOrder": 6,
+    "categoryName": "Bạn cảm thấy thế nào về từng yếu tố sau đây tại ChanChan?",
+    "questions": [
+      {
+        "id": 28,
+        "title": "1. Sản phẩm",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Rất không hài lòng"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Không hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá không hài lòng"
+          },
+          {
+            "numberOrder": 1,
+            "answer": "Trung lập"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Hơi hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Rất hài lòng"
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "title": "2. Độ sạch sẽ của nhà hàng",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Rất không hài lòng"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Không hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá không hài lòng"
+          },
+          {
+            "numberOrder": 1,
+            "answer": "Trung lập"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Hơi hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Rất hài lòng"
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "title": "3. Dịch vụ",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Rất không hài lòng"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Không hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá không hài lòng"
+          },
+          {
+            "numberOrder": 1,
+            "answer": "Trung lập"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Hơi hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Rất hài lòng"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "numberOrder": 7,
+    "categoryName": "Bạn cảm thấy thế nào về bữa ăn của ngày hôm nay ?",
+    "questions": [
+      {
+        "id": 31,
+        "title": "1. Món khai vị",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Rất không hài lòng"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Không hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá không hài lòng"
+          },
+          {
+            "numberOrder": 1,
+            "answer": "Trung lập"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Hơi hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Rất hài lòng"
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "title": "2. Món nước",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Rất không hài lòng"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Không hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá không hài lòng"
+          },
+          {
+            "numberOrder": 1,
+            "answer": "Trung lập"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Hơi hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Rất hài lòng"
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "title": "3. Món khô",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Rất không hài lòng"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Không hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá không hài lòng"
+          },
+          {
+            "numberOrder": 1,
+            "answer": "Trung lập"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Hơi hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Rất hài lòng"
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "title": "4. Món tráng miệng",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Rất không hài lòng"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Không hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá không hài lòng"
+          },
+          {
+            "numberOrder": 1,
+            "answer": "Trung lập"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Hơi hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Rất hài lòng"
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "title": "5. Các món nước nhà làm",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Rất không hài lòng"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Không hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá không hài lòng"
+          },
+          {
+            "numberOrder": 1,
+            "answer": "Trung lập"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Hơi hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Rất hài lòng"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "numberOrder": 7,
+    "categoryName": "Bạn cảm thấy thế nào về từng yếu tố sau đây tại ChanChan?",
+    "questions": [
+      {
+        "id": 36,
+        "title": "1. Cách trang trí",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Rất không hài lòng"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Không hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá không hài lòng"
+          },
+          {
+            "numberOrder": 1,
+            "answer": "Trung lập"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Hơi hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Rất hài lòng"
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "title": "2. Khẩu phần",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Rất không hài lòng"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Không hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá không hài lòng"
+          },
+          {
+            "numberOrder": 1,
+            "answer": "Trung lập"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Hơi hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Rất hài lòng"
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "title": "3. Mùi vị",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Rất không hài lòng"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Không hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá không hài lòng"
+          },
+          {
+            "numberOrder": 1,
+            "answer": "Trung lập"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Hơi hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Rất hài lòng"
+          }
+        ]
+      },
+      {
+        "id": 39,
+        "title": "4. Nhiệt độ món ăn",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Rất không hài lòng"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Không hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá không hài lòng"
+          },
+          {
+            "numberOrder": 1,
+            "answer": "Trung lập"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Hơi hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Rất hài lòng"
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "title": "5. Hương thơm",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Rất không hài lòng"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Không hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá không hài lòng"
+          },
+          {
+            "numberOrder": 1,
+            "answer": "Trung lập"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Hơi hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Rất hài lòng"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "numberOrder": 7,
+    "categoryName": "Bạn cảm thấy thế nào về từng yếu tố sau đây tại ChanChan?",
+    "questions": [
+      {
+        "id": 41,
+        "title": "1. Thái độ phục vụ của nhân viên",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Rất không hài lòng"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Không hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá không hài lòng"
+          },
+          {
+            "numberOrder": 1,
+            "answer": "Trung lập"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Hơi hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Rất hài lòng"
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "title": "2. Tốc độ tiếp nhận đơn hàng",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Rất không hài lòng"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Không hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá không hài lòng"
+          },
+          {
+            "numberOrder": 1,
+            "answer": "Trung lập"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Hơi hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Rất hài lòng"
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "title": "3. Tốc độ lên món",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Rất không hài lòng"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Không hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá không hài lòng"
+          },
+          {
+            "numberOrder": 1,
+            "answer": "Trung lập"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Hơi hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Rất hài lòng"
+          }
+        ]
+      },
+      {
+        "id": 44,
+        "title": "4. Tốc độ phản hồi của nhân viên",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Rất không hài lòng"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Không hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá không hài lòng"
+          },
+          {
+            "numberOrder": 1,
+            "answer": "Trung lập"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Hơi hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Rất hài lòng"
+          }
+        ]
+      },
+      {
+        "id": 45,
+        "title": "5. Bàn ghế (sự sạch sẽ và thoải mái)",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Rất không hài lòng"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Không hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá không hài lòng"
+          },
+          {
+            "numberOrder": 1,
+            "answer": "Trung lập"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Hơi hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Rất hài lòng"
+          }
+        ]
+      },
+      {
+        "id": 46,
+        "title": "6. Nhà vệ sinh",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Rất không hài lòng"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Không hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá không hài lòng"
+          },
+          {
+            "numberOrder": 1,
+            "answer": "Trung lập"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Hơi hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Rất hài lòng"
+          }
+        ]
+      },
+      {
+        "id": 47,
+        "title": "7. Sàn nhà (sạch sẽ, an toàn)",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Rất không hài lòng"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Không hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá không hài lòng"
+          },
+          {
+            "numberOrder": 1,
+            "answer": "Trung lập"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Hơi hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Rất hài lòng"
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "title": "8. Thực đơn (rõ ràng, dễ hiểu)",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Rất không hài lòng"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Không hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá không hài lòng"
+          },
+          {
+            "numberOrder": 1,
+            "answer": "Trung lập"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Hơi hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Khá hài lòng"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Rất hài lòng"
+          }
+        ]
+      }
+    ]
   }
 ]
