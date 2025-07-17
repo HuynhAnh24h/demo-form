@@ -53,11 +53,9 @@ function SurveyForm() {
             answer,
         }))
         console.log("Dữ liệu gửi lên server:", formatted)
-        toast.success("Đã gửi khảo sát thành công! 🎉")
+        toast.success("Đã gửi khảo sát thành công!")
         localStorage.removeItem("surveyAnswers")
         setThank(true)
-
-        
     }
 
     const handleNextStep = async () => {
