@@ -135,7 +135,11 @@ function SurveyForm() {
                 <h2 className="text-lg font-bold bg-[#FF6600] text-white text-center py-3 rounded-md shadow">
                     {currentStep.categoryName}
                 </h2>
-
+                {currentStep.text && (
+                    <p className="text-sm text-[#60230D] font-medium bg-orange-50 rounded p-3 text-center">
+                        {currentStep.text}
+                    </p>
+                )}
                 {currentStep.questions.map(q => (
                     <div key={q.id} className="space-y-2">
                         <Label className="text-orange-500 font-semibold block">{q.title}</Label>
@@ -170,7 +174,7 @@ function SurveyForm() {
                         {errors[q.id]?.message && (
                             <p className="text-sm text-red-500">{errors[q.id]?.message}</p>
                         )}
-                       
+
                     </div>
                 ))}
 
