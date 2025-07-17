@@ -89,11 +89,10 @@ const SurveyForm = () => {
                 <img src={logo} alt="" className="h-full w-full" />
             </div>
             <form className="p-6 space-y-6 max-w-xl mx-auto" onSubmit={handleSubmit(onSubmit)}>
-                {/* <h2 className="text-lg font-bold border-2 border-[#FF6600] p-5 rounded-md bg-[#FF6600] text-center text-white">{currentStep.categoryName}</h2> */}
-                <h2 className="text-md font-bold border-2 border-[#FF6600] p-5 rounded-md bg-[#FF6600] text-center text-white">CHO CHANCHAN 1 XÍU THÔNG TIN XÍU VỀ BẠN NHA</h2>
+                <h2 className="text-lg font-bold border-2 border-[#FF6600] p-5 rounded-md bg-[#FF6600] text-center text-white">{currentStep.categoryName}</h2> 
 
                 {currentStep.questions.map((q) => (
-                    <div key={q.id} className="space-y-2">
+                    <div key={`${q.id}-${q.numberOrder}`} className="space-y-2">
                         <Label className="block font-medium text-orange-500">{q.title}</Label>
 
                         {q.typeOfQuestion === 1 ? (
