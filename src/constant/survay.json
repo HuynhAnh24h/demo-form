@@ -881,6 +881,32 @@
   },
   {
     "numberOrder": 9,
+    "categoryName": "CẢM ƠN BẠN ĐÃ THAM GIA KHẢO SÁT",
+    "text": "Mọi góp ý của Bạn là động lực để ChanChan tiếp tục phát triển",
+    "questions": [
+      {
+        "id": 49,
+        "title": "ChanChan cảm ơn Bạn bằng món quà nhỏ. Mời Bạn chọn quà nhé",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Nước tía tô hạt chia"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Nước chanh dây xí muội"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Bánh Pudding"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "numberOrder": 10,
     "categoryName": "CHANCHAN CÁM ƠN BẠN RẤT NHIỀU 🧡",
     "text" : "ChanChan thỉnh thoảng sẽ gửi tặng quà cho khách hàng may mắn hoặc thân thiết nhất. Nếu bạn muốn nhận quà bất ngờ từ tụi mình, để lại thông tin nha 😍",
     "questions": [
@@ -898,39 +924,6 @@
         "answers": null
       }
     ]
-  },
-  {
-    "numberOrder": 10,
-    "categoryName": "CẢM ƠN BẠN ĐÃ THAM GIA KHẢO SÁT",
-    "text": "Mọi góp ý của Bạn là động lực để ChanChan tiếp tục phát triển",
-    "questions": [
-      {
-        "id": 49,
-        "title": "ChanChan cảm ơn Bạn bằng món quà nhỏ. Mời Bạn chọn quà nhé",
-        "typeOfQuestion": 1,
-        "answers": [
-          {
-            "numberOrder": 1,
-            "answer": "Nước tía tô hạt chia"
-          },
-          {
-            "numberOrder": 2,
-            "answer": "Trà hoa cúc nha đam"
-          },
-          {
-            "numberOrder": 3,
-            "answer": "Nước thảo mộc sương sáo"
-          },
-          {
-            "numberOrder": 4,
-            "answer": "Nước chanh dây xí muội"
-          },
-          {
-            "numberOrder": 5,
-            "answer": "Bánh Pudding"
-          }
-        ]
-      }
-    ]
   }
+  
 ]
