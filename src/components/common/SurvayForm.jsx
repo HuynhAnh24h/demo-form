@@ -156,23 +156,28 @@ function SurveyForm() {
                                         shouldDirty: true,
                                     })
                                 }
-                                className={q.answers.length >= 4 ? "grid grid-cols-2 sm:grid-cols-3 gap-3" : "space-y-2"}
+                                className={q.answers.length >= 3 ? "grid grid-cols-2 sm:grid-cols-3 gap-3" : "space-y-2"}
                             >
                                 {q.answers.map((a, idx) => {
                                     const inputId = `${q.id}-${idx}`
                                     return (
-                                        <div
+                                        <Label
                                             key={inputId}
-                                            className="flex items-center gap-2 rounded-md border border-gray-300 p-2 hover:bg-orange-50 transition"
+                                            htmlFor={inputId}
+                                            className="flex items-center gap-2 rounded-md border px-4 py-3 text-sm font-medium text-gray-700 cursor-pointer
+          border-gray-300 bg-white
+          hover:bg-orange-50 hover:border-orange-300
+          data-[state=checked]:bg-orange-100 data-[state=checked]:border-orange-500 data-[state=checked]:text-orange-600
+          transition-colors duration-200"
                                         >
                                             <RadioGroupItem value={a.answer} id={inputId} />
-                                            <Label htmlFor={inputId} className="text-sm text-gray-700 font-medium">
-                                                {a.answer}
-                                            </Label>
-                                        </div>
+                                            {a.answer}
+                                        </Label>
                                     )
                                 })}
                             </RadioGroup>
+
+
                         ) : (
                             <Input
                                 {...register(q.id.toString())}
