@@ -156,13 +156,19 @@ function SurveyForm() {
                                         shouldDirty: true,
                                     })
                                 }
+                                className={q.answers.length >= 4 ? "grid grid-cols-2 sm:grid-cols-3 gap-3" : "space-y-2"}
                             >
                                 {q.answers.map((a, idx) => {
                                     const inputId = `${q.id}-${idx}`
                                     return (
-                                        <div key={inputId} className="flex items-center space-x-2 hover:bg-orange-50 p-1 rounded">
+                                        <div
+                                            key={inputId}
+                                            className="flex items-center gap-2 rounded-md border border-gray-300 p-2 hover:bg-orange-50 transition"
+                                        >
                                             <RadioGroupItem value={a.answer} id={inputId} />
-                                            <Label htmlFor={inputId}>{a.answer}</Label>
+                                            <Label htmlFor={inputId} className="text-sm text-gray-700 font-medium">
+                                                {a.answer}
+                                            </Label>
                                         </div>
                                     )
                                 })}
@@ -170,17 +176,15 @@ function SurveyForm() {
                         ) : (
                             <Input
                                 {...register(q.id.toString())}
-                                className="w-full border p-2 rounded text-sm font-medium outline-none focus:border-orange-500 focus:bg-orange-50 focus:text-orange-600"
+                                className="w-full border border-gray-300 p-2 rounded text-sm font-medium outline-none focus:border-orange-500 focus:bg-orange-50 focus:text-orange-600"
                             />
                         )}
 
                         {errors[q.id]?.message && (
                             <p className="text-sm text-red-500">{errors[q.id]?.message}</p>
                         )}
-
                     </div>
                 ))}
-
 
                 <div className="flex justify-between pt-4">
                     {step > 0 && (
