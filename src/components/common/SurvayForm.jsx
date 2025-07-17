@@ -170,7 +170,7 @@ function SurveyForm() {
                                         <Label
                                             key={inputId}
                                             htmlFor={inputId}
-                                            className="flex items-center gap-2 rounded-md p-2 text-sm font-medium text-gray-700 cursor-pointer
+                                            className="flex items-center gap-2 rounded-md p-2 text-[12px] font-medium text-gray-700 cursor-pointer
           hover:bg-orange-50 hover:border-orange-300
           transition-colors duration-200"
                                         >
