@@ -404,40 +404,13 @@
       },
       {
         "id": 19,
-        "title": "20. Bạn thấy như thế nào về bữa ăn của bạn tại ChanChan hôm nay?",
-        "typeOfQuestion": 1,
-        "answers": [
-          {
-            "numberOrder": 1,
-            "answer": "Rất không hài lòng"
-          },
-          {
-            "numberOrder": 2,
-            "answer": "Không hài lòng"
-          },
-          {
-            "numberOrder": 3,
-            "answer": "Trung lập"
-          },
-          {
-            "numberOrder": 3,
-            "answer": "Khá hài lòng"
-          },
-          {
-            "numberOrder": 3,
-            "answer": "Rất hài lòng"
-          }
-        ]
-      },
-      {
-        "id": 20,
-        "title": "24. Bạn muốn ChanChan bổ sung món gì vào menu?",
+        "title": "20. Bạn muốn ChanChan bổ sung món gì vào menu?",
         "typeOfQuestion": 3,
         "answers": null
       },
       {
-        "id": 21,
-        "title": "25. Bạn có sẵn lòng giới thiệu ChanChan cho bạn bè không?",
+        "id": 20,
+        "title": "21. Bạn có sẵn lòng giới thiệu ChanChan cho bạn bè không?",
         "typeOfQuestion": 1,
         "answers": [
           {
