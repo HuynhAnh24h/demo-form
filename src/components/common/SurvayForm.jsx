@@ -124,7 +124,10 @@ function SurveyForm() {
     const handleNextStep = async () => {
         const fields = currentStep.questions.map(q => q.id.toString())
         const isValid = await trigger(fields)
-        if (isValid) setStep(prev => prev + 1)
+        if (isValid) {
+            setStep(prev => prev + 1)
+            window.scrollTo({ top: 0, behavior: 'smooth' }) // Thêm dòng này
+        }
     }
 
     return (
