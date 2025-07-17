@@ -21,7 +21,6 @@ function SurveyForm() {
     const currentStep = survay[step]
     const allKeys = survay.flatMap(step => step.questions.map(q => q.id.toString()))
     const saved = localStorage.getItem("surveyAnswers")
-
     const defaultValues = Object.fromEntries(
         allKeys.map(key => [key, saved ? JSON.parse(saved)?.[key] ?? "" : ""])
     )
@@ -54,7 +53,7 @@ function SurveyForm() {
         }))
         console.log("Dữ liệu gửi lên server:", formatted)
         toast.success("Đã gửi khảo sát thành công!")
-        localStorage.removeItem("surveyAnswers")
+        localStorage.clear()
         setThank(true)
     }
 
