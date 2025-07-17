@@ -156,7 +156,7 @@ function SurveyForm() {
                                         shouldDirty: true,
                                     })
                                 }
-                                className={q.answers.length >= 3 ? "grid grid-cols-2 sm:grid-cols-3 gap-3" : "space-y-2"}
+                                className={q.answers.length >= 3 ? "grid grid-cols-3 sm:grid-cols-3 gap-3" : "space-y-2"}
                             >
                                 {q.answers.map((a, idx) => {
                                     const inputId = `${q.id}-${idx}`
