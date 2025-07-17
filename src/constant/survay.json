@@ -458,26 +458,6 @@
   },
   {
     "numberOrder": 5,
-    "categoryName": "CHANCHAN CÁM ƠN BẠN RẤT NHIỀU 🧡",
-    "text" : "ChanChan thỉnh thoảng sẽ gửi tặng quà cho khách hàng may mắn hoặc thân thiết nhất. Nếu bạn muốn nhận quà bất ngờ từ tụi mình, để lại thông tin nha 😍",
-    "questions": [
-      {
-        "id": 26,
-        "title": "Tên:",
-        "typeOfQuestion": 3,
-        "answers": null
-      },
-      {
-        "id": 27,
-        "title": "Số điện thoại/Zalo:",
-        "typeOfQuestion": 3,
-        "type":"phone",
-        "answers": null
-      }
-    ]
-  },
-  {
-    "numberOrder": 6,
     "categoryName": "BẠN CẢM THẤY THẾ NÀO VỀ TỪNG YẾU TỐ SAU ĐÂY TẠI CHANCHAN?",
     "questions": [
       {
@@ -540,7 +520,7 @@
     ]
   },
   {
-    "numberOrder": 7,
+    "numberOrder": 6,
     "categoryName": "BẠN CẢM THẤY THẾ NÀO VỀ BỮA ĂN CỦA NGÀY HÔM NAY?",
     "questions": [
       {
@@ -641,7 +621,7 @@
     ]
   },
   {
-    "numberOrder": 8,
+    "numberOrder": 7,
     "categoryName": "BẠN CẢM THẤY THẾ NÀO VỀ TỪNG YẾU TỐ SAU ĐÂY TẠI CHANCHAN?",
     "questions": [
       {
@@ -742,7 +722,7 @@
     ]
   },
   {
-    "numberOrder": 9,
+    "numberOrder": 8,
     "categoryName": "BẠN CẢM THẤY THẾ NÀO VỀ TỪNG YẾU TỐ SAU ĐÂY TẠI CHANCHAN?",
     "questions": [
       {
@@ -896,6 +876,26 @@
             "answer": "Không hài lòng"
           }
         ]
+      }
+    ]
+  },
+  {
+    "numberOrder": 9,
+    "categoryName": "CHANCHAN CÁM ƠN BẠN RẤT NHIỀU 🧡",
+    "text" : "ChanChan thỉnh thoảng sẽ gửi tặng quà cho khách hàng may mắn hoặc thân thiết nhất. Nếu bạn muốn nhận quà bất ngờ từ tụi mình, để lại thông tin nha 😍",
+    "questions": [
+      {
+        "id": 26,
+        "title": "Tên:",
+        "typeOfQuestion": 3,
+        "answers": null
+      },
+      {
+        "id": 27,
+        "title": "Số điện thoại/Zalo:",
+        "typeOfQuestion": 3,
+        "type":"phone",
+        "answers": null
       }
     ]
   },
