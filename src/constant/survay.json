@@ -431,72 +431,12 @@
       },
       {
         "id": 20,
-        "title": "21. Bạn cảm nhận như thế nào về thái độ phục vụ của nhân viên ChanChan?",
-        "typeOfQuestion": 1,
-        "answers": [
-          {
-            "numberOrder": 1,
-            "answer": "Rất không hài lòng"
-          },
-          {
-            "numberOrder": 2,
-            "answer": "Không hài lòng"
-          },
-          {
-            "numberOrder": 3,
-            "answer": "Trung lập"
-          },
-          {
-            "numberOrder": 3,
-            "answer": "Khá hài lòng"
-          },
-          {
-            "numberOrder": 3,
-            "answer": "Rất hài lòng"
-          }
-        ]
-      },
-      {
-        "id": 21,
-        "title": "22. Bạn cho ChanChan xin ý kiến về thời gian tiếp nhận order và lên món nữa nha~",
-        "typeOfQuestion": 1,
-        "answers": [
-          {
-            "numberOrder": 1,
-            "answer": "Rất chậm"
-          },
-          {
-            "numberOrder": 2,
-            "answer": "Chậm"
-          },
-          {
-            "numberOrder": 3,
-            "answer": "Trung bình"
-          },
-          {
-            "numberOrder": 3,
-            "answer": "Nhanh"
-          },
-          {
-            "numberOrder": 3,
-            "answer": "Rất nhanh"
-          }
-        ]
-      },
-      {
-        "id": 22,
-        "title": "23. Bạn mong ChanChan cải thiện điều gì?",
-        "typeOfQuestion": 3,
-        "answers": null
-      },
-      {
-        "id": 23,
         "title": "24. Bạn muốn ChanChan bổ sung món gì vào menu?",
         "typeOfQuestion": 3,
         "answers": null
       },
       {
-        "id": 24,
+        "id": 21,
         "title": "25. Bạn có sẵn lòng giới thiệu ChanChan cho bạn bè không?",
         "typeOfQuestion": 1,
         "answers": [
@@ -518,7 +458,27 @@
   },
   {
     "numberOrder": 5,
-    "categoryName": "Bạn cảm thấy thế nào về từng yếu tố sau đây tại ChanChan?",
+    "categoryName": "CHANCHAN CÁM ƠN BẠN RẤT NHIỀU 🧡",
+    "text" : "ChanChan thỉnh thoảng sẽ gửi tặng quà cho khách hàng may mắn hoặc thân thiết nhất. Nếu bạn muốn nhận quà bất ngờ từ tụi mình, để lại thông tin nha 😍",
+    "questions": [
+      {
+        "id": 26,
+        "title": "Tên:",
+        "typeOfQuestion": 3,
+        "answers": null
+      },
+      {
+        "id": 27,
+        "title": "Số điện thoại/Zalo:",
+        "typeOfQuestion": 3,
+        "type":"phone",
+        "answers": null
+      }
+    ]
+  },
+  {
+    "numberOrder": 6,
+    "categoryName": "BẠN CẢM THẤY THẾ NÀO VỀ TỪNG YẾU TỐ SAU ĐÂY TẠI CHANCHAN?",
     "questions": [
       {
         "id": 28,
@@ -580,8 +540,8 @@
     ]
   },
   {
-    "numberOrder": 6,
-    "categoryName": "Bạn cảm thấy thế nào về bữa ăn của ngày hôm nay ?",
+    "numberOrder": 7,
+    "categoryName": "BẠN CẢM THẤY THẾ NÀO VỀ BỮA ĂN CỦA NGÀY HÔM NAY?",
     "questions": [
       {
         "id": 31,
@@ -682,7 +642,7 @@
   },
   {
     "numberOrder": 7,
-    "categoryName": "Bạn cảm thấy thế nào về từng yếu tố sau đây tại ChanChan?",
+    "categoryName": "BẠN CẢM THẤY THẾ NÀO VỀ TỪNG YẾU TỐ SAU ĐÂY TẠI CHANCHAN?",
     "questions": [
       {
         "id": 36,
@@ -782,8 +742,8 @@
     ]
   },
   {
-    "numberOrder": 8,
-    "categoryName": "Bạn cảm thấy thế nào về từng yếu tố sau đây tại ChanChan?",
+    "numberOrder": 7,
+    "categoryName": "BẠN CẢM THẤY THẾ NÀO VỀ TỪNG YẾU TỐ SAU ĐÂY TẠI CHANCHAN?",
     "questions": [
       {
         "id": 41,
@@ -934,6 +894,40 @@
           {
             "numberOrder": 3,
             "answer": "Không hài lòng"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "numberOrder": 7,
+    "categoryName": "CẢM ƠN BẠN ĐÃ THAM GIA KHẢO SÁT",
+    "text": "Mọi góp ý của Bạn là động lực để ChanChan tiếp tục phát triển",
+    "questions": [
+      {
+        "id": 41,
+        "title": "ChanChan cảm ơn Bạn bằng món quà nhỏ. Mời Bạn chọn quà nhé",
+        "typeOfQuestion": 1,
+        "answers": [
+          {
+            "numberOrder": 1,
+            "answer": "Nước tía tô hạt chia"
+          },
+          {
+            "numberOrder": 2,
+            "answer": "Trà hoa cúc nha đam"
+          },
+          {
+            "numberOrder": 3,
+            "answer": "Nước thảo mộc sương sáo"
+          },
+          {
+            "numberOrder": 4,
+            "answer": "Nước chanh dây xí muội"
+          },
+          {
+            "numberOrder": 5,
+            "answer": "Bánh Pudding"
           }
         ]
       }
