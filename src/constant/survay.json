@@ -517,25 +517,6 @@
     ]
   },
   {
-    "numberOrder": 5,
-    "categoryName": "CHANCHAN CÁM ƠN BẠN RẤT NHIỀU 🧡",
-    "text" : "ChanChan thỉnh thoảng sẽ gửi tặng quà cho khách hàng may mắn hoặc thân thiết nhất. Nếu bạn muốn nhận quà bất ngờ từ tụi mình, để lại thông tin nha 😍",
-    "questions": [
-      {
-        "id": 26,
-        "title": "Tên:",
-        "typeOfQuestion": 3,
-        "answers": null
-      },
-      {
-        "id": 27,
-        "title": "Số điện thoại/Zalo:",
-        "typeOfQuestion": 3,
-        "answers": null
-      }
-    ]
-  },
-  {
     "numberOrder": 6,
     "categoryName": "Bạn cảm thấy thế nào về từng yếu tố sau đây tại ChanChan?",
     "questions": [

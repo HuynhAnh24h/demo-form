@@ -9,6 +9,7 @@ import { z } from "zod"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { toast } from "react-toastify"
 import logo from "@/assets/logo.png"
+import ThanhYou from "./ThanhYou"
 
 // ✅ Tạo schema validation bằng zod
 const schema = z.object(
@@ -74,6 +75,7 @@ const schema = z.object(
 
 function SurveyForm() {
     const [step, setStep] = useState(0)
+    const [thank,setThank] = useState(false)
     const currentStep = survay[step]
     const allKeys = survay.flatMap(step => step.questions.map(q => q.id.toString()))
     const saved = localStorage.getItem("surveyAnswers")
@@ -108,7 +110,7 @@ function SurveyForm() {
             questionId: id,
             answer,
         }))
-
+        console.log("Dữ liệu gửi lên server:", formatted)
         toast.success("Đã gửi khảo sát thành công! 🎉", {
             autoClose: 3000,
             onClose: () => {
@@ -117,8 +119,9 @@ function SurveyForm() {
                 setStep(0)
             },
         })
+        setThank(true)
 
-        console.log("📦 Dữ liệu gửi lên server:", formatted)
+        
     }
 
     const handleNextStep = async () => {
@@ -131,7 +134,10 @@ function SurveyForm() {
     }
 
     return (
-        <div className="max-w-md md:min-w-xl shadow-xl flex flex-col justify-center items-center mx-3 my-3 bg-white p-6 rounded-lg">
+       <>
+       {
+        thank ? <ThanhYou/>:(
+            <div className="max-w-md md:min-w-xl shadow-xl flex flex-col justify-center items-center mx-3 my-3 bg-white p-6 rounded-lg">
             <img src={logo} alt="Logo ChanChan" className="w-28 h-28 mb-4" />
 
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-6 w-full">
@@ -207,6 +213,9 @@ function SurveyForm() {
                 </div>
             </form>
         </div>
+        )
+       }
+       </>
     )
 }
 
