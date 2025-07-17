@@ -478,7 +478,7 @@
   },
   {
     "numberOrder": 6,
-    "categoryName": "TỐC ĐỘ ORDER TẠI QUẦY CỦA THU NGÂN",
+    "categoryName": "BẠN CẢM THẤY THẾ NÀO VỀ TỪNG YẾU TỐ SAU ĐÂY TẠI CHANCHAN?",
     "questions": [
       {
         "id": 28,
@@ -766,7 +766,7 @@
       },
       {
         "id": 42,
-        "title": "2. Tốc độ tiếp nhận đơn hàng",
+        "title": "2. Tốc độ Order tại quầy của thu ngân",
         "typeOfQuestion": 1,
         "answers": [
           {
