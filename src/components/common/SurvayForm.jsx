@@ -53,14 +53,8 @@ function SurveyForm() {
             answer,
         }))
         console.log("Dữ liệu gửi lên server:", formatted)
-        toast.success("Đã gửi khảo sát thành công! 🎉", {
-            autoClose: 3000,
-            onClose: () => {
-                localStorage.removeItem("surveyAnswers")
-                reset({})
-                setStep(0)
-            },
-        })
+        toast.success("Đã gửi khảo sát thành công! 🎉")
+        localStorage.removeItem("surveyAnswers")
         setThank(true)
 
         
