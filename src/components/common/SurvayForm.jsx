@@ -10,67 +10,9 @@ import { zodResolver } from "@hookform/resolvers/zod"
 import { toast } from "react-toastify"
 import logo from "@/assets/logo.png"
 import ThanhYou from "./ThanhYou"
-
+import { useSurveySchema } from "@/hooks/useSurveySchema"
 // ✅ Tạo schema validation bằng zod
-const schema = z.object(
-    Object.fromEntries(
-        survay.flatMap(step =>
-            step.questions.map(q => {
-                const key = q.id.toString()
-                const label = q.title.replace(":", "").trim()
-
-                // Dạng số điện thoại
-                if (q.type === "phone") {
-                    return [
-                        key,
-                        z.string().regex(/^(0|\+84)\d{9}$/, {
-                            message: `Số điện thoại không hợp lệ. Vui lòng nhập đúng số điện thoại/Zalo.`,
-                        }),
-                    ]
-                }
-
-                // Dạng chọn một đáp án (Radio)
-                if (q.typeOfQuestion === 1) {
-                    return [
-                        key,
-                        z.string().min(1, {
-                            message: `Bạn phải chọn một đáp án`,
-                        }),
-                    ]
-                }
-
-                // Dạng chọn nhiều đáp án (Checkbox)
-                if (q.typeOfQuestion === 2) {
-                    return [
-                        key,
-                        z.array(z.string()).min(1, {
-                            message: `Bạn phải chọn ít nhất một đáp án cho "${label}".`,
-                        }),
-                    ]
-                }
-
-                // Dạng nhập văn bản (Input Text)
-                if (q.typeOfQuestion === 3) {
-                    return [
-                        key,
-                        z.string().min(1, {
-                            message: `${label} không được để trống.`,
-                        }),
-                    ]
-                }
-
-                // Trường hợp mặc định fallback
-                return [
-                    key,
-                    z.string().min(1, {
-                        message: `${label} là trường bắt buộc.`,
-                    }),
-                ]
-            })
-        )
-    )
-)
-
+const schema = useSurveySchema()
 
 
 function SurveyForm() {
@@ -162,7 +104,7 @@ function SurveyForm() {
                                         shouldDirty: true,
                                     })
                                 }
-                                className={q.answers.length == 3 ? "grid md:grid-cols-3 grid-cols-3 gap-3" : "space-y-2"}
+                                className={q.answers.length == 3 ? "grid md:grid-cols-3 grid-cols-3 gap-1" : "space-y-1"}
                             >
                                 {q.answers.map((a, idx) => {
                                     const inputId = `${q.id}-${idx}`
@@ -170,9 +112,9 @@ function SurveyForm() {
                                         <Label
                                             key={inputId}
                                             htmlFor={inputId}
-                                            className="flex items-center gap-2 rounded-md p-2 text-[12px] font-medium text-gray-700 cursor-pointer
-          hover:bg-orange-50 hover:border-orange-300
-          transition-colors duration-200"
+                                            className="flex items-center gap-2 rounded-md p-1 text-[10px] font-medium text-gray-700 cursor-pointer
+                                        hover:bg-orange-50 hover:border-orange-300
+                                        transition-colors duration-200"
                                         >
                                             <RadioGroupItem value={a.answer} id={inputId} />
                                             {a.answer}
