@@ -641,7 +641,7 @@
     ]
   },
   {
-    "numberOrder": 7,
+    "numberOrder": 8,
     "categoryName": "BẠN CẢM THẤY THẾ NÀO VỀ TỪNG YẾU TỐ SAU ĐÂY TẠI CHANCHAN?",
     "questions": [
       {
@@ -742,7 +742,7 @@
     ]
   },
   {
-    "numberOrder": 7,
+    "numberOrder": 9,
     "categoryName": "BẠN CẢM THẤY THẾ NÀO VỀ TỪNG YẾU TỐ SAU ĐÂY TẠI CHANCHAN?",
     "questions": [
       {
@@ -900,12 +900,12 @@
     ]
   },
   {
-    "numberOrder": 7,
+    "numberOrder": 10,
     "categoryName": "CẢM ƠN BẠN ĐÃ THAM GIA KHẢO SÁT",
     "text": "Mọi góp ý của Bạn là động lực để ChanChan tiếp tục phát triển",
     "questions": [
       {
-        "id": 41,
+        "id": 49,
         "title": "ChanChan cảm ơn Bạn bằng món quà nhỏ. Mời Bạn chọn quà nhé",
         "typeOfQuestion": 1,
         "answers": [

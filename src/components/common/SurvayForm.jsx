@@ -140,9 +140,7 @@ function SurveyForm() {
             <div className="max-w-md md:min-w-xl shadow-xl flex flex-col justify-center items-center mx-3 my-3 bg-white p-6 rounded-lg">
             <img src={logo} alt="Logo ChanChan" className="w-28 h-28 mb-4" />
 
-            <form onSubmit={handleSubmit(onSubmit, () => {
-    toast.error("Bạn chưa hoàn thành tất cả các bước khảo sát.")
-  })} className="space-y-6 w-full">
+            <form onSubmit={handleSubmit(onSubmit)} className="space-y-6 w-full">
                 <h2 className="text-lg font-bold bg-[#FF6600] text-white text-center py-3 rounded-md shadow">
                     {currentStep.categoryName}
                 </h2>
