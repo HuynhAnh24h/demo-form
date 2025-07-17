@@ -164,10 +164,8 @@ function SurveyForm() {
                                         <Label
                                             key={inputId}
                                             htmlFor={inputId}
-                                            className="flex items-center gap-2 rounded-md border px-4 py-3 text-sm font-medium text-gray-700 cursor-pointer
-          border-gray-300 bg-white
+                                            className="flex items-center gap-2 rounded-md p-2 text-sm font-medium text-gray-700 cursor-pointer
           hover:bg-orange-50 hover:border-orange-300
-          data-[state=checked]:bg-orange-100 data-[state=checked]:border-orange-500 data-[state=checked]:text-orange-600
           transition-colors duration-200"
                                         >
                                             <RadioGroupItem value={a.answer} id={inputId} />
