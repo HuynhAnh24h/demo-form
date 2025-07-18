@@ -5,7 +5,6 @@ import { Label } from "@/components/ui/label"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Button } from "@/components/ui/button"
 import { useForm } from "react-hook-form"
-import { z } from "zod"
 import { zodResolver } from "@hookform/resolvers/zod"
 import { toast } from "react-toastify"
 import logo from "@/assets/logo.png"
@@ -24,9 +23,6 @@ function SurveyForm() {
     const defaultValues = Object.fromEntries(
         allKeys.map(key => [key, saved ? JSON.parse(saved)?.[key] ?? "" : ""])
     )
-
-
-
     const {
         register,
         handleSubmit,
@@ -77,7 +73,7 @@ function SurveyForm() {
         <>
             {
                 thank ? <ThanhYou /> : (
-                    <div className="max-w-md md:min-w-xl shadow-xl flex flex-col justify-center items-center mx-3 my-3 bg-white p-6 rounded-lg">
+                    <div className="max-w-md md:min-w-xl shadow-sm flex flex-col justify-center items-center mx-2 my-3 bg-white px-2 py-6 rounded-lg">
                         <img src={logo} alt="Logo ChanChan" className="w-28 h-28 mb-4" />
 
                         <form onSubmit={handleSubmit(onSubmit)} className="space-y-6 w-full">
@@ -102,7 +98,7 @@ function SurveyForm() {
                                                     shouldDirty: true,
                                                 })
                                             }
-                                            className={q.answers.length == 3 ? "grid md:grid-cols-3 grid-cols-3 gap-1" : "space-y-1"}
+                                            className={q.answers.length == 3 ? "grid md:grid-cols-3 grid-cols-3 gap-1" : "space-y-2"}
                                         >
                                             {q.answers.map((a, idx) => {
                                                 const inputId = `${q.id}-${idx}`
@@ -110,7 +106,7 @@ function SurveyForm() {
                                                     <Label
                                                         key={inputId}
                                                         htmlFor={inputId}
-                                                        className="flex items-center gap-2 rounded-md p-1 text-[10px] font-medium text-gray-700 cursor-pointer
+                                                        className="flex gap-1 rounded-md p-1 text-[10px] font-medium text-gray-700 cursor-pointer
                                         hover:bg-orange-50 hover:border-orange-300
                                         transition-colors duration-200"
                                                     >
