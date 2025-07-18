@@ -4,7 +4,7 @@
     "categoryName": "CHO CHANCHAN 1 XÍU THÔNG TIN VỀ BẠN NHA~~",
     "questions": [
       {
-        "id": 1,
+        "id": 0,
         "title": "1. Bạn thuộc nhóm độ tuổi nào?",
         "typeOfQuestion": 1,
         "answers": [
@@ -858,13 +858,13 @@
     "text" : "ChanChan thỉnh thoảng sẽ gửi tặng quà cho khách hàng may mắn hoặc thân thiết nhất. Nếu bạn muốn nhận quà bất ngờ từ tụi mình, để lại thông tin nha 😍",
     "questions": [
       {
-        "id": 26,
+        "id": -1,
         "title": "Tên:",
         "typeOfQuestion": 3,
         "answers": null
       },
       {
-        "id": 27,
+        "id": 1,
         "title": "Số điện thoại/Zalo:",
         "typeOfQuestion": 3,
         "answers": null
@@ -884,14 +884,6 @@
           {
             "numberOrder": 1,
             "answer": "Nước tía tô hạt chia"
-          },
-          {
-            "numberOrder": 2,
-            "answer": "Trà hoa cúc nha đam"
-          },
-          {
-            "numberOrder": 3,
-            "answer": "Nước thảo mộc sương sáo"
           },
           {
             "numberOrder": 4,
