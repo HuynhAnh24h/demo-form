@@ -108,7 +108,7 @@
       },
       {
         "id": 6,
-        "title": "7. Bạn biết đến ChanChan Noodle qua kênh nào?",
+        "title": "6. Bạn biết đến ChanChan Noodle qua kênh nào?",
         "typeOfQuestion": 1,
         "answers": [
           {
@@ -141,7 +141,7 @@
     "questions": [
       {
         "id": 7,
-        "title": "8. Bạn thường ăn món hủ tiếu theo kiểu nào?",
+        "title": "7. Bạn thường ăn món hủ tiếu theo kiểu nào?",
         "typeOfQuestion": 1,
         "answers": [
           {
@@ -156,7 +156,7 @@
       },
       {
         "id": 8,
-        "title": "9. Bạn thường đặt món ăn bằng cách nào?",
+        "title": "8. Bạn thường đặt món ăn bằng cách nào?",
         "typeOfQuestion": 1,
         "answers": [
           {
@@ -179,7 +179,7 @@
       },
       {
         "id": 9,
-        "title": "10. Bạn thích món ăn có những hương vị như thế nào?",
+        "title": "9. Bạn thích món ăn có những hương vị như thế nào?",
         "typeOfQuestion": 1,
         "answers": [
           {
@@ -198,7 +198,7 @@
       },
       {
         "id": 10,
-        "title": "11. Bạn ăn ở nhà hàng chay/thuần chay với tần suất như thế nào?",
+        "title": "10. Bạn ăn ở nhà hàng chay/thuần chay với tần suất như thế nào?",
         "typeOfQuestion": 1,
         "answers": [
           {
@@ -229,7 +229,7 @@
       },
       {
         "id": 11,
-        "title": "12. Khi ăn trưa, bạn dành bao nhiêu thời gian vậy nè?",
+        "title": "11. Khi ăn trưa, bạn dành bao nhiêu thời gian vậy nè?",
         "typeOfQuestion": 1,
         "answers": [
           {
@@ -244,7 +244,7 @@
       },
       {
         "id": 12,
-        "title": "13. Mức giá hợp lý cho một phần ăn để bạn order ở ngoài là:",
+        "title": "12. Mức giá hợp lý cho một phần ăn để bạn order ở ngoài là:",
         "typeOfQuestion": 1,
         "answers": [
           {
@@ -273,7 +273,7 @@
     "questions": [
       {
         "id": 13,
-        "title": "14. Sở thích sau khi làm việc của bạn là gì:",
+        "title": "13. Sở thích sau khi làm việc của bạn là gì:",
         "typeOfQuestion": 1,
         "answers": [
           {
@@ -292,7 +292,7 @@
       },
       {
         "id": 14,
-        "title": "15. Khi sử dụng mạng xã hội, bạn quan tâm đến những chủ đề nào:",
+        "title": "14. Khi sử dụng mạng xã hội, bạn quan tâm đến những chủ đề nào:",
         "typeOfQuestion": 1,
         "answers": [
           {
@@ -315,7 +315,7 @@
       },
       {
         "id": 15,
-        "title": "16.  Một ngày bạn dành bao nhiêu thời gian để sử dụng mạng xã hội?",
+        "title": "15.  Một ngày bạn dành bao nhiêu thời gian để sử dụng mạng xã hội?",
         "typeOfQuestion": 1,
         "answers": [
           {
@@ -340,7 +340,7 @@
     "questions": [
       {
         "id": 16,
-        "title": "17. Điều gì khiến bạn chọn ChanChan (hoặc một quán ăn) để ăn/lặp lại order?",
+        "title": "16. Điều gì khiến bạn chọn ChanChan (hoặc một quán ăn) để ăn/lặp lại order?",
         "typeOfQuestion": 1,
         "answers": [
           {
@@ -375,7 +375,7 @@
       },
       {
         "id": 17,
-        "title": "18. Khi đến ChanChan, bạn quan tâm yếu tố nào nhất ngoại trừ hương vị món ăn nè?",
+        "title": "17. Khi đến ChanChan, bạn quan tâm yếu tố nào nhất ngoại trừ hương vị món ăn nè?",
         "typeOfQuestion": 1,
         "answers": [
           {
@@ -398,19 +398,19 @@
       },
       {
         "id": 18,
-        "title": "19. Món nào của ChanChan bạn thích nhất? Vì sao?",
-        "typeOfQuestion": 3,
-        "answers": null
-      },
-      {
-        "id": 19,
-        "title": "20. Bạn muốn ChanChan bổ sung món gì vào menu?",
+        "title": "18. Món nào của ChanChan bạn thích nhất? Vì sao?",
         "typeOfQuestion": 3,
         "answers": null
       },
       {
         "id": 20,
-        "title": "21. Bạn có sẵn lòng giới thiệu ChanChan cho bạn bè không?",
+        "title": "19. Bạn muốn ChanChan bổ sung món gì vào menu?",
+        "typeOfQuestion": 3,
+        "answers": null
+      },
+      {
+        "id": 21,
+        "title": "20. Bạn có sẵn lòng giới thiệu ChanChan cho bạn bè không?",
         "typeOfQuestion": 1,
         "answers": [
           {
@@ -867,7 +867,6 @@
         "id": 27,
         "title": "Số điện thoại/Zalo:",
         "typeOfQuestion": 3,
-        "type":"phone",
         "answers": null
       }
     ]
@@ -888,16 +887,22 @@
           },
           {
             "numberOrder": 2,
-            "answer": "Nước chanh dây xí muội"
+            "answer": "Trà hoa cúc nha đam"
           },
           {
             "numberOrder": 3,
+            "answer": "Nước thảo mộc sương sáo"
+          },
+          {
+            "numberOrder": 4,
+            "answer": "Nước chanh dây xí muội"
+          },
+          {
+            "numberOrder": 5,
             "answer": "Bánh Pudding"
           }
         ]
       }
     ]
   }
-  
-  
 ]
