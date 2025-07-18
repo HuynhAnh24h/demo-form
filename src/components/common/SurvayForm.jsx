@@ -86,7 +86,7 @@ function SurveyForm() {
                                 </p>
                             )}
                             {currentStep.questions.map(q => (
-                                <div key={q.id} className="space-y-2">
+                                <div key={q.id} className="space-y-1">
                                     <Label className="text-orange-500 font-semibold block">{q.title}</Label>
 
                                     {q.typeOfQuestion === 1 && Array.isArray(q.answers) ? (
@@ -98,7 +98,7 @@ function SurveyForm() {
                                                     shouldDirty: true,
                                                 })
                                             }
-                                            className={q.answers.length == 3 ? "grid md:grid-cols-3 grid-cols-3 gap-1" : "space-y-2"}
+                                            className={q.answers.length == 3 ? "grid md:grid-cols-3 grid-cols-3 gap-1" : "space-y-1"}
                                         >
                                             {q.answers.map((a, idx) => {
                                                 const inputId = `${q.id}-${idx}`
