@@ -77,7 +77,7 @@ function SurveyForm() {
                         <img src={logo} alt="Logo ChanChan" className="w-28 h-28 mb-4" />
 
                         <form onSubmit={handleSubmit(onSubmit)} className="space-y-6 w-full">
-                            <h2 className="text-lg font-bold bg-[#FF6600] text-white text-center py-3 rounded-md shadow">
+                            <h2 className="text-md font-bold bg-[#FF6600] text-white text-center py-3 rounded-md shadow">
                                 {currentStep.categoryName}
                             </h2>
                             {currentStep.text && (
