@@ -1,9 +1,12 @@
 import React from 'react'
 import { Button } from '../ui/button'
-
+import logo from "@/assets/logo.png"
 const Header = ({go,setGo}) => {
   return (
     <div className='max-w-md mf:max-w-xl min-h-[500px] flex flex-col items-center justify-center shadow-sm gap-3 mx-3 px-3'>
+         <div className="w-[150px] h-[150px]">
+               <img src={logo} alt="Logo ChanChan" className="w-full h-full mb-4" />
+             </div>
         <h1 className='text-lg font-bold text-orange-400 text-center'>GIÚP CHANCHAN HIỂU BẠN HƠN NHÉ!</h1>
         <p className='text-sm text-[#60230D] font-medium bg-orange-50 rounded p-3 text-center'>Cảm ơn bạn đã dành thời gian chia sẻ cùng ChanChan! 
             Mỗi phản hồi của bạn giúp ChanChan mang đến những món ăn chất lượng hơn, 
